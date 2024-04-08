@@ -1,0 +1,51 @@
+header{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: black;
+    width: 100%;
+}
+header ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+header ul li{margin: 10px;}
+
+nav {
+    background-color: #000000;
+    color: #FFF;
+    display: flex;
+    flex-direction: row;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: rgb(255, 255, 255);
+    
+}
+
+nav ul li a:hover {
+    color: rgb(247, 242, 173);
+}
+
+.fondo{
+    background-image: url(../imagenes/fndngr.jpeg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+h2{
+    text-indent: 30px;
+    color:#FFF
+}
